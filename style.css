@@ -217,7 +217,7 @@ transition: 0.5s;/*ver esse*/
 
 }
 
-.card img{
+.card img{/*imagem do card*/
 
 width: 100%;
 height: 250px;
@@ -225,7 +225,38 @@ object-fit: cover;/*ver esse*/
 
 }
 
+.card h3{/*titulo do card*/
 
+padding: 20px 10px;
+font-size: 22px;
+
+}
+
+.card p{/*paragraf do card*/
+
+padding: 0 20px;
+color: black;
+margin-bottom: 20px;
+
+}
+
+.card a{
+
+display: block;
+text-align: center;
+background-color: rgb(119, 131, 189);
+color: aliceblue;
+text-decoration: none;/*tirar a barra em baixo da ancora*/
+padding: 15px;
+font-weight: bold;
+
+}
+
+.card a:hover{
+
+background-color: rgb(195, 201, 228);
+
+}
 
 
 
